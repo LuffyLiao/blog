@@ -1,2 +1,2 @@
 # typescript
-typescript 學習
+typescript ѧϰ
