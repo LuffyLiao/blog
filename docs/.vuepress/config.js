@@ -24,7 +24,7 @@ module.exports = {
                 }
             ]
         },
-        repo: 'LuffyLiao.github.io',
+        repo: 'LuffyLiao.github.io/typescript',
         repoLabel: 'GitHub',
         docsBranch: 'master',
         lastUpdated: 'Last Updated'
