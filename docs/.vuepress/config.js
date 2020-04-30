@@ -1,8 +1,8 @@
 module.exports = {
     title: 'Liaowq',
     description: '前端工程师，记录学习的脚步',
-    themeConfig: {head: [['link', { rel: 'icon', href: '/favicon.png' }]],
     themeConfig: {
+        head: [['link', { rel: 'icon', href: '/favicon.png' }]],
         nav: [
             { text: 'Home', link: '/' },
             { text: 'TypeScript', link: '/ts/' }
