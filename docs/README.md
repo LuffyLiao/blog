@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /background.png
-tagline: 前端工程师，技术爱好者，记录和总结自己
+heroImage: /background.jpg
+tagline: 前端工程师，记录学习的脚步
 features:
     - title: 吾生也有涯，而知也无涯
       details: 持续保持学习的状态
