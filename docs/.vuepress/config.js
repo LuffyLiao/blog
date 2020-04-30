@@ -1,5 +1,7 @@
 module.exports = {
     title: 'Liaowq',
+    description: '前端工程师，记录学习的脚步',
+    themeConfig: {head: [['link', { rel: 'icon', href: '/icon.png' }]],
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
