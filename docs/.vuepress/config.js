@@ -8,6 +8,11 @@ module.exports = {
         sidebar: {
             '/ts/': [
                 {
+                    title: '简介',
+                    collapsable: false,
+                    path: '/ts/'
+                },
+                {
                     title: '基础',
                     collapsable: false,
                     children: [
