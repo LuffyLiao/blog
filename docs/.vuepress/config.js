@@ -1,5 +1,4 @@
 module.exports = {
-    base:'/typescript/',
     title: 'Liaowq',
     themeConfig: {
         nav: [
@@ -24,7 +23,7 @@ module.exports = {
                 }
             ]
         },
-        repo: 'LuffyLiao.github.io/typescript',
+        repo: 'LuffyLiao/LuffyLiao.github.io',
         repoLabel: 'GitHub',
         docsBranch: 'master',
         lastUpdated: 'Last Updated'
