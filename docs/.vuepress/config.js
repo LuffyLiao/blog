@@ -23,7 +23,7 @@ module.exports = {
                 }
             ]
         },
-        repo: 'LuffyLiao/LuffyLiao.github.io',
+        repo: 'LuffyLiao.github.io',
         repoLabel: 'GitHub',
         docsBranch: 'master',
         lastUpdated: 'Last Updated'
