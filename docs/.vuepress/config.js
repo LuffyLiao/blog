@@ -23,7 +23,8 @@ module.exports = {
                         { title: '类型推论', path: 'type-inference' },
                         { title: '联合类型', path: 'union-types' },
                         { title: '接口', path: 'type-of-object-interfaces' },
-                        { title: '数组类型', path: 'type-of-array' }
+                        { title: '数组的类型', path: 'type-of-array' },
+                        { title: '函数的类型', path: 'type-of-function' },
                     ]
                 }
             ]
