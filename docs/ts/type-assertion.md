@@ -179,24 +179,6 @@ const wangOu =  getCacheData('wangOu') as GirlFriend
 wangOu.run()
 ```
 
-## 用接口定义函数的形状
-
-我们也可以使用接口的方式来定义一个函数需要符合的形状：
-
-```typescript
-interface MyGirlFriend {
-    (name:string, index: string): boolean
-}
-
-let wangOu: MyGirlFriend ;
-
-wangOu = function(name: string, index:string){
-    return name.indexOf(index) > -1
-}
-
-wangOu('wangOu','wang') // true
-```
-
 ## 参考
 
--   [TypeScript 入门教程 - 函数的类型](https://ts.xcatliu.com/basics/type-assertion)
+-   [TypeScript 入门教程 - 类型断言](https://ts.xcatliu.com/basics/type-assertion)
