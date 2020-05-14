@@ -25,6 +25,7 @@ module.exports = {
                         { title: '接口', path: 'type-of-object-interfaces' },
                         { title: '数组的类型', path: 'type-of-array' },
                         { title: '函数的类型', path: 'type-of-function' },
+                        { title: '类型断言', path: 'type-assertion' },
                     ]
                 }
             ]
