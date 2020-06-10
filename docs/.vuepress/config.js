@@ -27,7 +27,11 @@ module.exports = {
                         { title: '函数的类型', path: 'type-of-function' },
                         { title: '类型断言', path: 'type-assertion' },
                         { title: '声明文件', path: 'declaration-files' },
-                        { title: '内置对象', path: 'built-in-objects' }
+                        { title: '内置对象', path: 'built-in-objects' },
+                        { title: '类型别名', path: 'type-aliases' },
+                        { title: '字符串字面量类型', path: 'string-literal-types' },
+                        { title: '元祖', path: 'tuple' },
+                        
                     ]
                 }
             ]
