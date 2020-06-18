@@ -31,6 +31,9 @@ module.exports = {
                         { title: '类型别名', path: 'type-aliases' },
                         { title: '字符串字面量类型', path: 'string-literal-types' },
                         { title: '元祖', path: 'tuple' },
+                        { title: '枚举', path: 'enum' },
+                        { title: '类', path: 'class' },
+                        { title: '类与接口', path: 'class-and-interfaces' },
                         
                     ]
                 }
