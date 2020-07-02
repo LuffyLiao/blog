@@ -34,6 +34,8 @@ module.exports = {
                         { title: '枚举', path: 'enum' },
                         { title: '类', path: 'class' },
                         { title: '类与接口', path: 'class-and-interfaces' },
+                        { title: '泛型', path: 'generics' },
+                        { title: '声明合并', path: 'declaration-merging' }
                         
                     ]
                 }
