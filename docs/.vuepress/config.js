@@ -5,7 +5,8 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'TypeScript', link: '/ts/' }
+            { text: 'TypeScript', link: '/ts/' },
+            { text: 'JavaScript', link: '/js/' }
         ],
         sidebar: {
             '/ts/': [
@@ -39,6 +40,13 @@ module.exports = {
                         
                     ]
                 }
+            ],
+            '/js/':[
+                {
+                    title: '简介',
+                    collapsable: false,
+                    path: '/js/'
+                },
             ]
         },
         repo: 'LuffyLiao/LuffyLiao.github.io',
