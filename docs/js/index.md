@@ -1,47 +1,29 @@
 ## 什么是 TypeScript
 
-[TypeScript](https://www.typescriptlang.org/) 是 `JavaScript` 的超集，主要提供类型系统和 ES6 支持，能够为编写大型 `JavaScript` 程序提供静态类型检查，它由 `Microsoft` 开发，代码[开源在 GitHub ](https://github.com/Microsoft/TypeScript)上。
+`JavaScript` 是一种专为与网页交互而设计的脚本语言，由下列三个不同的部分组成：
 
-## TypeScript 的优势
+- `ECMAScript`，由 ECMA-262 定义，提供核心语言功能；
 
--   `TypeScript` 的静态类型，可以帮助我们在开发过程中，发现潜在的风险
+- 文档对象模型（DOM），提供访问和操作网页内容的方法和接口；
 
--   更友好的编辑器自动提示
+- 浏览器对象模型（BOM），提供与浏览器交互的方法和接口。
 
--   代码语义化，更清晰易懂
 
-## 安装 TypeScript
+##  <script> 标签
 
-`TypeScript` 的命令行工具安装：
+把JavaScript 插入到HTML页面中要使用`<script>`元素。需要注意：
 
-```shell
-npm install typescript -g
-```
+- 所有 `<script>` 元素都会按照它们在页面中出现的先后顺序依次被解析。在不使用 `defer` 和
+`async` 属性的情况下，只有在解析完前面 `<script>` 元素中的代码之后，才会开始解析后面
+`<script>` 元素中的代码
 
-`-g` 表示全局安装。
+- 由于浏览器会先解析完不使用 defer 属性的 `<script>` 元素中的代码，然后再解析后面的内容，
+所以一般应该把 `<script>` 元素放在页面最后，即主要内容后面， `</body>` 标签前面。
 
-一般为了项目间的协作顺利，都会安装到项目内：
+- 使用 `defer` 属性可以让脚本在文档完全呈现之后再执行。延迟脚本总是按照指定它们的顺序执行。
 
-```shell
-npm install typescript -D
-```
+- 使用 `async` 属性可以表示当前脚本不必等待其他脚本，也不必阻塞文档呈现。不能保证异步脚
+本按照它们在页面中出现的顺序执行。
 
-以上命令会在命令行安装 `tsc` 的命令。
-
-```shell
-npx tsc demo.ts
-```
-
----
-
-如果想在 `node` 里直接执行 `TypeScript`，可以安装 `ts-node` 包
-
-```shell
-npm install ts-node -D
-```
-
-执行 `TypeScript` 文件
-
-```shell
-npx ts-node demo.ts
-```
+- 使用 `<noscript>` 元素可以指定在不支持脚本的浏览器中显示的替代内容。但在启用了脚本
+的情况下，浏览器不会显示 `<noscript>` 元素中的任何内容。

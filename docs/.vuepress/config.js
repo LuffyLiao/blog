@@ -47,6 +47,14 @@ module.exports = {
                     collapsable: false,
                     path: '/js/'
                 },
+                {
+                    title: '变量、作用域和内存问题',
+                    collapsable: false,
+                    children: [
+                        { title: '原始数据类型', path: 'primitive-data-types' },            
+                        { title: '基本类型和引用类型', path: 'common-quote-type' },            
+                    ]
+                }
             ]
         },
         repo: 'LuffyLiao/LuffyLiao.github.io',
