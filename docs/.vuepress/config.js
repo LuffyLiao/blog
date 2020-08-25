@@ -6,7 +6,8 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'TypeScript', link: '/ts/' },
-            { text: 'JavaScript', link: '/js/' }
+            { text: 'JavaScript', link: '/js/' },
+            { text: 'ES6', link: '/es/' },
         ],
         sidebar: {
             '/ts/': [
@@ -53,6 +54,20 @@ module.exports = {
                     children: [
                         { title: '原始数据类型', path: 'primitive-data-types' },            
                         { title: '基本类型和引用类型', path: 'common-quote-type' },            
+                    ]
+                }
+            ],
+            '/es/':[
+                {
+                    title: '简介',
+                    collapsable: false,
+                    path: '/es/'
+                },
+                {
+                    title: '基础',
+                    collapsable: false,
+                    children: [
+                        { title: '原始数据类型', path: 'var-let-const' },          
                     ]
                 }
             ]
