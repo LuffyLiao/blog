@@ -36,7 +36,37 @@ var cat2 = cat1
 cat2.name = 'shiEr'
 console.log(cat1.name) // shiEr
 ```
+### 动态属性
+引用值而言，可以随时添加、修改和删除其属性和方法。
 
+```javascript
+let person = {}; 
+person.name = "Nicholas"; 
+console.log(person.name); // "Nicholas"
+```
 
+原始值不能有属性，尽管尝试给原始值添加属性不会报错。
 
+```javascript
+let name = "Nicholas"; 
+name.age = 27; 
+console.log(name.age); // undefined
+```
+### 复制值
+除了存储方式不同，原始值和引用值在通过变量复制时也有所不同。
 
+- 原始值的复制会开辟一个新的空间，原始值会被复制到新变量的位置。
+![avatar](./images/common_copy.png)
+- 而把引用值的复制只是复制了一个指针，新旧指针都指向存储在堆内存中的对象。
+![avatar](./images/quote_copy.png)
+
+### 判断类型
+typeof 操作符最适合用来判断一个变量是否为字符串、数值、布尔值或 undefined 。但是如果值是对象或 null，那么 typeof 返回的是object
+
+判断`Object`，`Array`，`null`的可以适应instanceof进行判断
+```javascript
+console.log(person instanceof Object); // 变量 person 是 Object 吗？
+console.log(colors instanceof Array); // 变量 colors 是 Array 吗？
+console.log(pattern instanceof RegExp); // 变量 pattern 是 RegExp 吗？
+```
+但是instance并不准确，思考题： [请说出三种判断是否是数组的方法？](./isArray.md)
