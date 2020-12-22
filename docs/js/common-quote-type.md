@@ -56,8 +56,10 @@ console.log(name.age); // undefined
 除了存储方式不同，原始值和引用值在通过变量复制时也有所不同。
 
 - 原始值的复制会开辟一个新的空间，原始值会被复制到新变量的位置。
-
+![avatar](./images/common_copy.png)
 - 而把引用值的复制只是复制了一个指针，新旧指针都指向存储在堆内存中的对象。
+![avatar](./images/quote_copy.png)
+
 ### 判断类型
 typeof 操作符最适合用来判断一个变量是否为字符串、数值、布尔值或 undefined 。但是如果值是对象或 null，那么 typeof 返回的是object
 
