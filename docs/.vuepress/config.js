@@ -46,7 +46,7 @@ module.exports = {
                 {
                     title: '简介',
                     collapsable: false,
-                    path: '/js/common-quote-type.md'
+                    path: '/js/'
                 },
                 {
                     title: '变量、作用域和内存问题',
