@@ -54,7 +54,8 @@ module.exports = {
                     children: [
                         { title: '原始数据类型', path: 'primitive-data-types' },            
                         { title: '基本类型和引用类型', path: 'common-quote-type' },     
-                        { title: '上下文和作用域', path: 'scope' },       
+                        { title: '上下文和作用域', path: 'scope' },  
+                        { title: '垃圾回收', path: 'garbage-collection' },      
                     ]
                 }
             ],
