@@ -1,4 +1,4 @@
-## 上下文和作用域
+### 上下文和作用域
 
 变量或函数的上下文决定了它们可以访问哪些数据，以及它们的行为。每个上下文都有一个关联的变量对象（variable object），而这个上下文中定义的所有变量和函数都存在于这个对象上。
 
@@ -20,7 +20,7 @@ function changeColor() {
 // 这里只能访问 color 
 changeColor();
 ```
-## var,let,const
+### var,let,const
 
 `var、let、const`这些变量声明各有什么区别及特点，本文将从三个方面阐述他们差别：
 
@@ -28,7 +28,7 @@ changeColor();
 - var和let/const的区别
 - const命令
 
-##  var变量提升机制及特点
+###  var变量提升机制及特点
 
 变量提示机制：在函数作用域或者全局作用域中通过`var`声明的变量，都会被当成在当前作用域顶部声明的变量
 ```javascript
@@ -79,7 +79,7 @@ changeColor();
     // 本来window对象中有Animation属性，所以会覆盖window.Animation的值
     console.log(window.Animation) // 'hello,world'
 ```
-## 变量声明
+### 变量声明
 ####  var和let/const的区别
 
 - 块级作用域
@@ -143,7 +143,7 @@ changeColor();
     let foo = 1
     window.foo // undefined
 ```
-##  const命令
+###  const命令
 
 1. 声明的时候就需要赋值
 ```javascript
