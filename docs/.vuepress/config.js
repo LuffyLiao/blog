@@ -58,7 +58,8 @@ module.exports = {
                         { title: '垃圾回收', path: 'garbage-collection' },   
                         { title: 'Date&RegExp', path: 'Date' }, 
                         { title: '单例内置对象', path: 'Global' }, 
-                        { title: '原始值包装类型', path: 'primitive-package-type' },     
+                        { title: '原始值包装类型', path: 'primitive-package-type' },    
+                        { title: 'Object&Array', path: 'Object' },   
                     ]
                 }
             ],
