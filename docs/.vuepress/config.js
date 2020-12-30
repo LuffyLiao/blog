@@ -56,7 +56,9 @@ module.exports = {
                         { title: '基本类型和引用类型', path: 'common-quote-type' },     
                         { title: '上下文和作用域', path: 'scope' },  
                         { title: '垃圾回收', path: 'garbage-collection' },   
-                        { title: 'Date&RegExp', path: 'Date' },    
+                        { title: 'Date&RegExp', path: 'Date' }, 
+                        { title: '单例内置对象', path: 'Global' }, 
+                        { title: '原始值包装类型', path: 'primitive-package-type' },     
                     ]
                 }
             ],
