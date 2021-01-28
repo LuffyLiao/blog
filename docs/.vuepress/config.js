@@ -56,12 +56,12 @@ module.exports = {
                         { title: '基本类型和引用类型', path: 'common-quote-type' },     
                         { title: '上下文和作用域', path: 'scope' },  
                         { title: '垃圾回收', path: 'garbage-collection' },   
-                        { title: 'Date&RegExp', path: 'Date' }, 
-                        { title: '单例内置对象', path: 'Global' }, 
+                        { title: 'Date&RegExp', path: 'date' }, 
+                        { title: '单例内置对象', path: 'global' }, 
                         { title: '原始值包装类型', path: 'primitive-package-type' },    
-                        { title: 'Object&Array', path: 'Object' },  
-                        { title: 'Map', path: 'Map' },   
-                        { title: 'WeakMap', path: 'WeakMap' }, 
+                        { title: 'Object&Array', path: 'object' },  
+                        { title: 'Map', path: 'map' },   
+                        { title: 'WeakMap', path: 'weakMap' }, 
                     ]
                 }
             ],
