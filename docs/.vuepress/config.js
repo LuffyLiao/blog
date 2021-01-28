@@ -59,7 +59,9 @@ module.exports = {
                         { title: 'Date&RegExp', path: 'Date' }, 
                         { title: '单例内置对象', path: 'Global' }, 
                         { title: '原始值包装类型', path: 'primitive-package-type' },    
-                        { title: 'Object&Array', path: 'Object' },   
+                        { title: 'Object&Array', path: 'Object' },  
+                        { title: 'Map', path: 'Map' },   
+                        { title: 'WeakMap', path: 'WeakMap' }, 
                     ]
                 }
             ],

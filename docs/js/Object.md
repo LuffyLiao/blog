@@ -64,3 +64,46 @@ console.log(Array.of(1,2,3,4)) // [1, 2, 3, 4]
 // 用于代替ES5的Array.prototype.slice.call(args)
 console.log(Array.prototype.slice.call(1,2,3,4)) // [1, 2, 3, 4]
 ```
+2. 迭代器方法
+ES6中，Array原型上暴露了3个用于检索数组内容的方法：keys()、values()和entries()。
+keys()返回数组索引的迭代器，values()返回数组元素的迭代器，而entries()返回索引/值的迭代器
+```javascript
+const a = ['foo', 'bar', 'baz', 'qux']
+// 因为这些方法都是返回迭代器，所以通过Array.from()直接转换为数组实例
+const aKeys = Array.from(a.keys()) // [0,1,2,3]
+const aValues = Array.from(a.values()) // ['foo','bar','baz','qux']
+const aEntries = Array.from(a.entries()) // [[0,'foo'],[1,'bar'],[2,'baz',[3,'qux']]
+```
+3. 复制和填充方法
+- copyWithin(): 批量复制方法
+```javascript
+let ints,
+reset = () => ints = [0,1,2,3,4,5,6,7,8,9]
+reset()
+/**
+ * 第一个参数：插入位置开始的索引，
+ * 第二个参数：复制位置开始的索引，默认是0，
+ * 第三个参数：是复制位置结束的索引。在源索引或目标索引到达数组边界时停止,
+ * 静默忽略超出数组边界、零长度及方向相反的索引范围
+ */
+ints.copyWithin(5)
+console.log(ints) // [0,1,2,3,4,0,1,2,3,4]
+ints.copyWithin(0, 5)
+console.log(ints) // [5,6,7,8,9,5,6,7,8,9]
+ints.copyWithin(4, 0, 3) // 从索引0开始到3结束，插入到4的位置
+console.log(ints) // [0,1,2,3,0,1,2,7,8,9]
+```
+- fill(): 填充数组,参数含义与上copyWithin类似
+```javascript
+const zeros = [0,0,0,0,0]
+
+// 用5填充整个数组
+zeros.fill(5)  // [5,5,5,5,5]
+
+// 用6填充索引大于等于3的元素
+zeroes.fill(6,3) // [0,0,0,6,6]
+
+// 用7填充索引大于等于1且小于3的元素
+zeroes.fill(7,1,3) // [0,7,7,0,0]
+```
+
