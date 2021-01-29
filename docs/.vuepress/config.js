@@ -60,8 +60,8 @@ module.exports = {
                         { title: '单例内置对象', path: 'Global' }, 
                         { title: '原始值包装类型', path: 'primitive-package-type' },    
                         { title: 'Object&Array', path: 'Object' },  
-                        { title: 'Map', path: 'Map' },   
-                        { title: 'WeakMap', path: 'WeakMap' }, 
+                        { title: 'Map', path: 'aboutMap' },   
+                        { title: 'WeakMap', path: 'aboutWeakMap' }, 
                     ]
                 }
             ],
