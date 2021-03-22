@@ -1,3 +1,12 @@
+---
+title: TypeScript - 类与接口
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+ - 类与接口
+---
 ## 类与接口
 * * *
 ### 类实现接口

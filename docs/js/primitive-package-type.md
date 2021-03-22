@@ -1,3 +1,12 @@
+---
+title: 原始值包装类型
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - JavaScript
+tags:
+ - 数据类型
+---
 ### 原始值包装类型 Boolean、Number、String
 每当用到某个原始值的方法或属性时，后台都会创建一个相应原始包装类型的对象
 ```javascript

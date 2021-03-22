@@ -1,3 +1,11 @@
+---
+title: TypeScript - 元祖
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 元祖
 数组合并了相同类型的对象，而元组（Tuple）合并了不同类型的对象。
 

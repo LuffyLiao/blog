@@ -1,3 +1,11 @@
+---
+title: TypeScript - 类型别名
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 类型别名
 类型别名用来给一个类型起个新名字。
 * * *

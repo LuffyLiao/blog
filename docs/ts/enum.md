@@ -1,3 +1,11 @@
+---
+title: TypeScript - 枚举
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 枚举 (enum)
 枚举（Enum）类型用于取值被限定在一定范围内的场景，比如一周只能有七天，颜色限定为红绿蓝等,值是固定且在一定范围。
 * * *

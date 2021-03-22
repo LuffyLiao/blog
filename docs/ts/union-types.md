@@ -1,3 +1,11 @@
+---
+title: TypeScript - 联合类型
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 联合类型 (Union Types)
 
 表示取值可以是多种类型中的一种

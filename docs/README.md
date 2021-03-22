@@ -1,7 +1,9 @@
 ---
 home: true
-heroImage: /background.jpg
-tagline: 前端工程师，记录学习的脚步
+tagline: 善于思考，勤于探究...
+bgImageStyle: {
+  height: '350px'
+}
 features:
     - title: 吾生也有涯，而知也无涯
       details: 持续保持学习的状态

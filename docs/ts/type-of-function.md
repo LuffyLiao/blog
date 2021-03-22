@@ -1,3 +1,11 @@
+---
+title: TypeScript - 函数的类型
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 函数的类型 (type-of-function)
 
 ## 函数声明

@@ -1,3 +1,11 @@
+---
+title: TypeScript - 类型断言
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 类型断言 (type-assertion)
 类型断言（Type Assertion）可以用来手动指定一个值的类型。
 * * *

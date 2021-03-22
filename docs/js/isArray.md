@@ -1,4 +1,12 @@
-
+---
+title: 判断是否是数组
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - JavaScript
+tags:
+ - 数组
+---
 ### 判断是否是数组
 1. typeof肯定是不行的。
 

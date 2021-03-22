@@ -1,3 +1,11 @@
+---
+title: TypeScript - 声明合并
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 声明合并
 
 如果定义了两个相同名字的函数、接口或类，那么它们会合并成一个类型：

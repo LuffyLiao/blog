@@ -1,3 +1,12 @@
+---
+title: JS内置对象
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - JavaScript
+tags:
+ - 内置对象
+---
 ### Global：全局作用域中存在的内置对象
 在全局作用域中定义的变量和函数都会成为Global对象的属性，包括isNaN()，isFinite()，perseInt()和parseFloat()，实际上都是Global对象的方法
 

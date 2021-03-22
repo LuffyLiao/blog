@@ -1,3 +1,11 @@
+---
+title: TypeScript - 类型推论
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 类型推论
 
     如果没有明确的指定类型，那么 TypeScript 就会依据类型推论规则推断出一个类型。

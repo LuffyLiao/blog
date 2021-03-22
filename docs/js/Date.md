@@ -1,3 +1,12 @@
+---
+title: Date
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - JavaScript
+tags:
+ - 内置对象
+---
 ### Date
 创建日期对象，使用new操作符调用Date构造函数：
 let now  = new Date()

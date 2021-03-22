@@ -1,3 +1,14 @@
+---
+title: 基本类型和引用类型
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - JavaScript
+tags:
+ - js
+ - 基本类型
+ - 引用类型
+---
 ### 基本类型和引用类型
 
 ### js堆栈概念

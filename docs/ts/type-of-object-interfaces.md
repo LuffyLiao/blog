@@ -1,3 +1,11 @@
+---
+title: TypeScript - 接口
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 接口 (Interfaces)
 
 在 `TypeScript` 中，我们使用接口定义对象的类型。

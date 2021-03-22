@@ -1,3 +1,11 @@
+---
+title: TypeScript - 字符串字面量类型
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 字符串字面量类型
 字符串字面量类型用来约束取值只能是某几个字符串中的一个。
 * * *

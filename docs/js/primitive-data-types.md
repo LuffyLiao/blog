@@ -1,3 +1,12 @@
+---
+title: 数据类型
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - JavaScript
+tags:
+ - 数据类型
+---
 ### 数据类型
 
 `ECMAScript` 中有 5 种基本数据类型： `Undefined` 、 `Null` 、 `Boolean` 、 `Number`

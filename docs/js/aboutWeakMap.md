@@ -1,3 +1,12 @@
+---
+title: WeakMap
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - JavaScript
+tags:
+ - WeakMap
+---
 ### WeakMap
 `WeakMap`:弱映射，对象是一组键/值对的集合，其中的键是弱引用的。其键必须是对象，而值可以是任意的。
 #### weak的含义

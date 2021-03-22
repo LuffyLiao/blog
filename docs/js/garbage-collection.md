@@ -1,3 +1,12 @@
+---
+title: 垃圾回收
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - JavaScript
+tags:
+ - 垃圾回收
+---
 ### 垃圾回收
 JavaScript 是使用垃圾回收的语言，也就是说执行环境负责在代码执行时管理内存。
 

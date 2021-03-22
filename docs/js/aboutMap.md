@@ -1,3 +1,12 @@
+---
+title: Map
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - JavaScript
+tags:
+ - Map
+---
 ### Map
 Map 是一种新的集合类型，是一种键/值存储机制。能记住键的原始插入顺序，其中键可以是任何值（对象或原始值）
 

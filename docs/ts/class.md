@@ -1,3 +1,15 @@
+---
+title: 类
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+ - ES6
+tags:
+ - 类与接口
+ - ES6
+ - Class
+---
 ## 类(class)
 * * *
 ### ES6中类的用法

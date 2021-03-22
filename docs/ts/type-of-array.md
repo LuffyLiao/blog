@@ -1,3 +1,11 @@
+---
+title: TypeScript - 数组类型
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+---
 ## 数组类型 (Type Of Array)
 
 在 `TypeScript` 中，数组类型有多种定义方式，比较灵活。

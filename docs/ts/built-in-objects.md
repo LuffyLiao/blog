@@ -1,3 +1,12 @@
+---
+title: TypeScript - 内置对象
+date: '2021-03-22 08:00:00'
+sidebar: 'auto'
+categories:
+ - TypeScript
+tags:
+ - 内置对象
+---
 ## 内置对象 （Build In Objects）
 
 内置对象是指，根据标准在全局作用域上的对象。这里的标准是指 `ECMAScript` 和其它环境的标准。
