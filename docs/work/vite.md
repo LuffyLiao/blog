@@ -1,3 +1,12 @@
+---
+title: vite
+date: 2021-03-25 13:56:11
+sidebar: 'auto'
+categories: 
+ - vue
+tags: 
+ - vite
+---
 ### vite
 ##### [vite是什么](https://cn.vitejs.dev/)
 
