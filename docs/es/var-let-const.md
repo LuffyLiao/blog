@@ -1,5 +1,5 @@
 ---
-title: 类
+title: var、const、let
 date: '2021-03-22 08:00:00'
 sidebar: 'auto'
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
  - 变量
 ---
-## var,let,const
+## var、let、const
 
 `var、let、const`这些变量声明各有什么区别及特点，本文将从三个方面阐述他们差别：
 
