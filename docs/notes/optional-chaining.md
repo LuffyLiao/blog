@@ -5,7 +5,7 @@ sidebar: 'auto'
 categories: 
  - 零散笔记
 ---
-#### 可选链 ?.
+### 可选链 ?.
 以前的你肯定是这么写
 ```javascript
 let info = data && data.info
@@ -15,7 +15,7 @@ let info = data && data.info
 let info = data?.info
 ```
 这个【可选链】的意思是，如果?.左边的值不是`null`或者`undefined`，那么就返回`data.info`，否则返回`undefined`
-#### 双问号 ??
+### 双问号 ??
 但还是会不太方便，比如
 ```javascript
 let num = res?.data?.status || 100
