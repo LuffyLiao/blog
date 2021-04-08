@@ -98,16 +98,30 @@ tags:
 
 3. 暂时性死区
 ```javascript
-    var foo = 1
+    var foo = 1 
 
     // 只要进入if{}这个作用域，所要使用的变量就已经存在，但在声明变量前不能获取或者使用
     if(true){
         foo = 2 // 报错 因为if{}这个区域有foo变量
-        let foo; 
+        let foo = 1; 
+        console.log(foo) // 这里可以正常访问
     }
 ```
 作用：减少运行时错误，防止在变量声明前就使用
-
+注意：对于暂时性死区，有种比较极端的情况是，函数的参数默认值没有设置也会受到它的影响
+```javascript
+function foo(arg1 = arg2, arg2){
+    console.log(`${arg1}${arg2}`)
+}
+foo('arg1','arg2') // 输出 arg1 arg2
+```
+上面的foo函数中，如果没有传入第一个参数，则会使用第二个参数作为第一个实参。当第一个参数为默认值时 执行`arg1 = arg2`会被当作暂时性死区处理。如下所示
+```javascript
+function foo(arg1 = arg2, arg2){
+    console.log(`${arg1}${arg2}`)
+}
+foo(undefined,'arg2') // 报错 arg2 is not defined
+```
 4. 不允许重复声明变量
 `let`、`const`不允许在相同作用域内，重复声明同一个变量
 
