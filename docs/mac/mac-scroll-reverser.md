@@ -1,5 +1,5 @@
 ---
-title: [工具推荐]Mac 鼠标方向 -- scroll reverser
+title: 工具推荐：Mac 鼠标方向 -- scroll reverser
 date: 2021-04-13 16:05:04
 sidebar: 'auto'
 categories: 

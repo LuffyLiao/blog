@@ -5,7 +5,16 @@ module.exports = {
     description: '前端工程师，记录学习的脚步',
     head: [
         ['link', { rel: 'icon', href: '/favicon.png' }],
-        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+        ['script',{}, `
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?9c279da92a4d49aea2ae2a2b0cb96950";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+        `]
     ],
     themeConfig: {
         nav: [
