@@ -1,3 +1,10 @@
+---
+title: 面试题
+date: 2021-06-06 22:29:06
+sidebar: 'auto'
+categories: 
+ - 日常笔记
+---
 ### this到底指向谁
 **谁调用就指向谁**
 - 严格模式下，函数内的this会被绑定到undefined上，非严格模式则会被绑定到全局对象window/global上
