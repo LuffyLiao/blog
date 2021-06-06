@@ -13,8 +13,8 @@ jobs:
       with:
         ref: dev
 
-    - name: Build and Deploy
-      uses: JJamesIves/github-pages-deploy-action@4.1.4
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.4
       env:
         ACCESS_TOKEN: ${{ secrets.ACTION_TOKEN }}
         BASE_BRANCH: dev
