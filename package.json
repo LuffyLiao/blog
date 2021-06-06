@@ -7,6 +7,7 @@
     "vuepress": "^1.4.1"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001235",
     "vuepress-theme-reco": "^1.6.6"
   }
 }
