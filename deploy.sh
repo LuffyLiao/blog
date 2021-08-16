@@ -1,25 +1,17 @@
+  
 #!/usr/bin/env sh
-
 # 确保脚本抛出遇到的错误
 set -e
-
+ 
 # 生成静态文件
 npm run docs:build
-
+ 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
-
-# 如果是发布到自定义域名
-# echo 'www.example.com' > CNAME
-
+# git init 官网是有这行的，但我的项目里给注释掉了，因为我是现有项目，不想每次都初始化
+ 
+# 下面这行是官网没有的，如果是多人开发项目，务必执行此命令
 git init
 git add -A
 git commit -m 'deploy'
-
-# 如果发布到 https://<USERNAME>.github.io
-# git push -f https://github.com/LuffyLiao/typescript.git.github.io.git master
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
-
-cd -
+git push -f https://github.com/LuffyLiao/blog.git dev:gh-pages

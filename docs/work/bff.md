@@ -1,5 +1,5 @@
 ---
-title: BFF(node.js)层实践心得分享（by csh@addcn.com）
+title: BFF(node.js)层实践心得分享
 date: 2021-04-06 11:04:46
 sidebar: 'auto'
 categories: 
